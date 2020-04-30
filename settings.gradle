@@ -1,2 +1,4 @@
 rootProject.name='CrazyRouterDemo'
 include ':demo'
+include ':crazyrouter-compiler'
+include ':crazyrouter-api'
