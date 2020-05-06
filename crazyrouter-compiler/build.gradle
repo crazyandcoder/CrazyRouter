@@ -2,10 +2,16 @@ apply plugin: 'java-library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.squareup:javapoet:1.11.1'
-    implementation 'org.apache.commons:commons-collections4:4.4'
-    implementation 'org.apache.commons:commons-lang3:3.5'
+
+    // APT生成文件的辅助类
+    implementation 'com.squareup:javapoet:1.10.0'
+
+    //google快速配置apt的库
+    implementation 'com.google.auto.service:auto-service:1.0-rc4'
+
+    //需要处理的自定义注解
+    implementation project(path: ':crazyrouter-annotation')
 }
 
-sourceCompatibility = "7"
-targetCompatibility = "7"
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

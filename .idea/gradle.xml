@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,9 +10,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/crazyrouter-annotation" />
             <option value="$PROJECT_DIR$/crazyrouter-api" />
             <option value="$PROJECT_DIR$/crazyrouter-compiler" />
             <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/module_contact" />
+            <option value="$PROJECT_DIR$/module_discovery" />
+            <option value="$PROJECT_DIR$/module_index" />
+            <option value="$PROJECT_DIR$/module_me" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
